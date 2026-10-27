@@ -1,0 +1,225 @@
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Château de Fonbel 2019 & 2022 | 法式老錢風一頁式廣告</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#121212',
+                        cardBg: '#1a1a1a',
+                        cardBorder: '#2a2a2a',
+                        goldAccent: '#d4af37',
+                        goldHover: '#e5c158',
+                        mutedText: '#a3a3a3'
+                    },
+                    fontFamily: {
+                        serif: ['"Noto Serif TC"', 'serif'],
+                        sans: ['"Inter"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif+TC:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Serif TC', serif;
+            background-color: #121212;
+            color: #f3f4f6;
+        }
+        .gold-border {
+            border-color: #d4af37;
+        }
+        .gold-text {
+            color: #d4af37;
+        }
+        .placeholder-box {
+            background: linear-gradient(135deg, #1a1a1a 0%, #262626 100%);
+            border: 1px dashed rgba(212, 175, 55, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-[#121212] text-gray-100 antialiased selection:bg-[#d4af37] selection:text-black">
+
+    <!-- Hero Section (首屏) -->
+    <header class="relative min-h-screen flex items-center justify-center overflow-hidden border-b border-[#2a2a2a]">
+        <!-- Hero Background Image Placeholder / Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://placehold.co/1920x1080/121212/d4af37?text=Chateau+de+Fonbel+Vineyard+Background" alt="Château de Fonbel 葡萄園" class="w-full h-full object-cover opacity-30" onerror="this.src='https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1920&q=80'">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#121212] via-[#121212]/70 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center py-20">
+            <span class="inline-block text-xs uppercase tracking-[0.3em] text-[#d4af37] mb-6 px-4 py-1.5 border border-[#d4af37]/40 rounded-full bg-[#121212]/80">
+                Saint-Émilion Grand Cru 同門工藝
+            </span>
+            <h1 class="text-3xl sm:text-5xl md:text-6xl font-light tracking-wide leading-tight mb-6">
+                不到千元，品味 <span class="text-[#d4af37] font-normal">Château Ausone</span> 同一雙巧手
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-300 font-light max-w-3xl mx-auto mb-10 leading-relaxed">
+                Château de Fonbel 2019 與 2022：即刻開瓶的歡愉，或是值得等待的深邃，全由您決定。
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#purchase" class="w-full sm:w-auto px-8 py-4 bg-[#d4af37] text-black font-semibold rounded tracking-wider hover:bg-[#e5c158] transition duration-300 shadow-lg shadow-[#d4af37]/10">
+                    立即收藏雙年份
+                </a>
+                <a href="#features" class="w-full sm:w-auto px-8 py-4 bg-transparent text-gray-200 border border-gray-600 rounded tracking-wider hover:border-[#d4af37] hover:text-[#d4af37] transition duration-300">
+                    探索酒莊故事
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Agitation & Story Section (痛點共鳴與酒莊背景) -->
+    <section id="features" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+                <span class="text-[#d4af37] text-sm tracking-widest uppercase mb-3 block">The Vineyard & Philosophy</span>
+                <h2 class="text-2xl sm:text-4xl font-light mb-6 leading-snug">
+                    它是 Château Ausone 的「試驗田」
+                </h2>
+                <p class="text-gray-300 leading-relaxed mb-6 font-light">
+                    十六公頃的砂礫與黏土被切成小塊，像花園一樣精細耕作。Vauthier 家族從 1971 年接手至今，把管理 Château Ausone 的標準原封不動搬到了 Fonbel 身上。
+                </p>
+                <p class="text-[#d4af37] font-medium text-lg">
+                    不到千元的價格，便能品味右岸頂級名莊同一雙手的出品。
+                </p>
+            </div>
+            <!-- Image Placeholder: Vineyard / Estate -->
+            <div class="w-full aspect-[4/3] placeholder-box rounded-xl overflow-hidden flex flex-col items-center justify-center p-6 text-center shadow-xl">
+                <img src="https://placehold.co/800x600/1a1a1a/d4af37?text=Chateau+de+Fonbel+Estate" alt="酒莊實景圖片預留" class="w-full h-full object-cover rounded-lg" onerror="this.style.display='none'">
+                <span class="text-xs text-gray-400 mt-2 block">[ 預留空間：Château de Fonbel 葡萄園或莊園實景照片 ]</span>
+            </div>
+        </div>
+
+        <div class="bg-[#1a1a1a] border border-[#2a2a2a] rounded-2xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+            <div class="absolute -right-10 -bottom-10 text-9{-[#2a2a2a] opacity-25 select-none font-serif text-[#d4af37]/10">✦</div>
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="text-xl sm:text-2xl font-light italic text-[#d4af37] mb-6">
+                    「波爾多需要更多像這樣的酒。」— Jancis Robinson
+                </p>
+                <p class="text-gray-300 leading-relaxed mb-6 font-light">
+                    這句話絕非客套。Fonbel 從來不做那種需要等上十幾二十年才肯開口的酒，它直白、多汁、香料感清晰，開瓶即是享受。這款酒不僅曾在《神之雫》最終章露臉，更被 Decanter 放進全球 TOP 50 性價比最高的法國酒名單裡。這些事發生在 Fonbel 身上，一點都不意外。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vertical Comparison Section (年份垂直對比) -->
+    <section class="py-20 px-6 bg-[#161616] border-y border-[#2a2a2a]">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-[#d4af37] text-sm tracking-widest uppercase mb-3 block">Vertical Tasting</span>
+                <h2 class="text-3xl sm:text-4xl font-light mb-4">
+                    2019 與 2022 雙年份深度對比
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto font-light">
+                    截然不同的年份性格，為不同的品飲時刻而生。兩者的差異不在好壞，在於性格。
+                </p>
+            </div>
+
+            <!-- Bottle Comparison Image Placeholder -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <div class="placeholder-box rounded-xl p-8 text-center flex flex-col items-center justify-center aspect-[16/9]">
+                    <img src="https://placehold.co/600x400/1a1a1a/d4af37?text=Chateau+de+Fonbel+2019" alt="2019 酒款圖片預留" class="max-h-48 object-contain mb-3 rounded" onerror="this.style.display='none'">
+                    <span class="text-xs text-gray-400">[ 預留空間：Château de Fonbel 2019 酒瓶與酒標照 ]</span>
+                </div>
+                <div class="placeholder-box rounded-xl p-8 text-center flex flex-col items-center justify-center aspect-[16/9]">
+                    <img src="https://placehold.co/600x400/1a1a1a/d4af37?text=Chateau+de+Fonbel+2022" alt="2022 酒款圖片預留" class="max-h-48 object-contain mb-3 rounded" onerror="this.style.display='none'">
+                    <span class="text-xs text-gray-400">[ 預留空間：Château de Fonbel 2022 酒瓶與酒標照 ]</span>
+                </div>
+            </div>
+
+            <!-- Comparison Table (Responsive Cards on Mobile) -->
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse min-w-[700px]">
+                    <thead>
+                        <tr class="border-b border-[#333]">
+                            <th class="py-4 px-6 text-[#d4af37] font-semibold w-1/4">年份特色</th>
+                            <th class="py-4 px-6 text-[#d4af37] font-semibold w-3/8">Château de Fonbel 2019</th>
+                            <th class="py-4 px-6 text-[#d4af37] font-semibold w-3/8">Château de Fonbel 2022</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-[#262626] text-sm sm:text-base font-light">
+                        <tr>
+                            <td class="py-5 px-6 font-normal text-gray-300">國際評分</td>
+                            <td class="py-5 px-6 text-gray-300">James Suckling 92分<br>Parker 團隊 90分</td>
+                            <td class="py-5 px-6 text-gray-300">Jeb Dunnuck 94分<br>James Suckling 93分<br>Decanter 93分</td>
+                        </tr>
+                        <tr>
+                            <td class="py-5 px-6 font-normal text-gray-300">香氣層次</td>
+                            <td class="py-5 px-6 text-gray-300">藍莓、覆盆子與壤土香氣鋪開</td>
+                            <td class="py-5 px-6 text-gray-300">黑醋栗和黑櫻桃濃度極高，穿插巧克力感</td>
+                        </tr>
+                        <tr>
+                            <td class="py-5 px-6 font-normal text-gray-300">口感結構</td>
+                            <td class="py-5 px-6 text-gray-300">以 Merlot 為骨架，中等偏飽滿，單寧細緻無稜角，入口豐潤</td>
+                            <td class="py-5 px-6 text-gray-300">果汁感中等偏飽滿，單寧漂亮且具存在感，餘味極長</td>
+                        </tr>
+                        <tr>
+                            <td class="py-5 px-6 font-normal text-gray-300">品飲性格</td>
+                            <td class="py-5 px-6 text-gray-300">即刻的歡愉，果味在前，柔順易飲，宛如無需費心討好的知己</td>
+                            <td class="py-5 px-6 text-gray-300">具備精巧結構感與深度，果味高度集中</td>
+                        </tr>
+                        <tr>
+                            <td class="py-5 px-6 font-normal text-gray-300">適飲期</td>
+                            <td class="py-5 px-6 text-gray-300">現正適飲，今晚開瓶就能完全懂它</td>
+                            <td class="py-5 px-6 text-gray-300">現在品飲已極具魅力，更擁有 10 到 12 年甚至更長的陳年潛力</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Summary Guidance -->
+            <div class="mt-12 bg-[#1a1a1a] border border-[#2a2a2a] p-8 rounded-xl text-center max-w-4xl mx-auto">
+                <p class="text-gray-300 font-light leading-relaxed mb-4">
+                    2019 年份是即刻的歡愉，果味在前，柔順易飲，今晚開今晚就能懂它。2022 年份則多了一層結構感和深度，果味更集中，單寧更有存在感，現在喝已經相當迷人，再放幾年則會展現更多層次。
+                </p>
+                <p class="text-[#d4af37] font-medium">
+                    若想選一支無需動腦的日常好酒，2019 年份絕對是完美之選。若想在千元價位裡，感受 Saint-Émilion Grand Cru 的骨架能撐多遠，2022 年份則是更值得停留細品的那一支。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Purchase Section (最終行動與優惠) -->
+    <section id="purchase" class="py-24 px-6 max-w-4xl mx-auto text-center">
+        <span class="text-[#d4af37] text-sm tracking-widest uppercase mb-3 block">Limited Offer</span>
+        <h2 class="text-3xl sm:text-5xl font-light mb-6">
+            一次珍藏雙年份，感受右岸頂級名莊的無可取代
+        </h2>
+        <p class="text-gray-300 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
+            無論是挑選 2019 年份的柔順易飲，還是 2022 年份的深邃陳年潛力，現在立即下單，享受法式老錢風的高雅品味。
+        </p>
+
+        <!-- Product Bundle Card Placeholder -->
+        <div class="bg-[#1a1a1a] border border-[#d4af37]/40 rounded-2xl p-8 mb-10 shadow-2xl text-left max-w-xl mx-auto">
+            <div class="flex justify-between items-center mb-4 border-b border-[#2a2a2a] pb-4">
+                <span class="text-lg font-normal">Château de Fonbel 雙年份珍藏組</span>
+                <span class="text-[#d4af37] text-xl font-semibold">NT$ 13,500 <span class="text-xs text-gray-400 font-normal">/ 12入組</span></span>
+            </div>
+            <ul class="text-sm text-gray-300 space-y-2 mb-6 font-light">
+                <li>✦ 包含：2019 年份 (6瓶) + 2022 年份 (6瓶)</li>
+                <li>✦ 全台低溫溫控配送，品質安心保證</li>
+            </ul>
+            <button onclick="alert('感謝您的填寫！此為展示頁面，訂單功能已收到。')" class="w-full py-4 bg-[#d4af37] text-black font-semibold rounded tracking-wider hover:bg-[#e5c158] transition duration-300 text-center">
+                立即放入購物車
+            </button>
+        </div>
+        <p class="text-xs text-gray-500">
+            禁止酒駕 ｜ 未滿十八歲請勿飲酒 ｜ 飲酒過量，有害健康
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-xs text-gray-500 border-t border-[#2a2a2a]">
+        <p>&copy; 2026 Château de Fonbel Landing Page. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
